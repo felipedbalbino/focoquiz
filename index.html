@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocoQuiz 🌸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TELA DE BOAS VINDAS -->
+    <div id="tela-inicio" class="tela">
+            <h1>🌸 FocoQuiz</h1>
+            <p> Treine sua matematica de um jeito divertido!</p>
+            <input type=" text" id="nome-input" placeholder="Qual é o seu nome?">
+        <button id="btn-iniciar">Vamos começar! 🚀</button>
+    </div>
+
+    <!-- TELA DO QUIZ -->
+    <div id="tela-quiz" class="tela escondido">
+        <div id="cabecalho">
+            <span id="saudacao"></span>
+            <span id="pontuacao">⭐ 0 pontos</span>
+        </div>
+
+        <div id="barra-progresso">
+            <div id="barra-preenchimento"></div>
+        </div>
+
+        <div id="pergunta-box">
+            <p id="numero-pergunta">Pergunta 1 de 5</p>
+            <h2 id="pergunta-texto"></h2>
+        </div>
+
+        <div id="opcoes-box"></div>
+        <p id="feedback"></p>
+    </div>
+
+    <!-- TELA DE RESULTADOS -->
+     <div id="tela-resultado" class="tela escondido">
+        <h1>🎉 Parabéns!</h1>
+        <p id="resultado-nome"></p>
+        <p id="resultado-pontos"></p>
+        <button id="btn-jogar-novamente">Jogar de novo! 🌸</button>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+</html>
