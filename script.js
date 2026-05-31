@@ -23,7 +23,7 @@ const perguntas = [
     {
         pergunta: 'Quanto é 9 x 9?',
         opcoes: ['72', '81', '90', '63'],
-        correta: 2
+        correta: 1
     }
 ]
 
