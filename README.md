@@ -35,7 +35,7 @@ Acesse o projeto pelo link abaixo ou clone o repositório e abra o `index.html` 
 
 ## 🔗 Acesso
 
-> Em breve via GitHub Pages
+> [Acessar FocoQuiz 🌸](https://felipedbalbino.github.io/focoquiz)
 
 ## 👨‍💻 Autor
 
